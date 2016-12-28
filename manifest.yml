@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: aplicacao-de-teste-jorge
+  host: aplicacao-de-teste-jorge
+  disk_quota: 1024M
+  services:
+  - aplicacao-de-teste-jorge-AdvancedMobileAccess
+  - aplicacao-de-teste-jorge-imfpush
+  - aplicacao-de-teste-jorge-cloudantNoSQLDB
